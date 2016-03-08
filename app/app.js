@@ -9,4 +9,8 @@ angular.module('myApp', ['ui.router'])
                 url: "/",
                 templateUrl: "partials/home.html"
             })
+            .state('http', {
+                url: "/http",
+                templateUrl: "partials/http.html"
+            })
     });
